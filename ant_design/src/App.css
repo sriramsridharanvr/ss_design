@@ -1,0 +1,40 @@
+@import "~antd/dist/antd.css";
+.main-page-layout .ant-layout-header,
+.main-page-layout .main-content,
+.main-page-layout .ant-layout-content,
+.main-page-layout .ant-layout-footer {
+  background: #fff !important;
+}
+
+.main-sidebar .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+  line-height: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  color: #e7e7e7;
+  text-transform: uppercase;
+}
+
+.main-sidebar .logo .abbr {
+  display: none;
+}
+
+.main-sidebar .logo .full {
+  display: inline;
+}
+
+.main-sidebar.ant-layout-sider-collapsed .logo .full {
+  display: none;
+}
+
+.main-sidebar.ant-layout-sider-collapsed .logo .abbr {
+  display: inline;
+}
+
+.main-content {
+  overflow-y: auto;
+  padding: 10px 50px;
+}
